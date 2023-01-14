@@ -28,7 +28,7 @@ class CustomYouTubePlayer @Inject constructor():YouTubePlayer.OnInitializedListe
     }
 
     fun setInitializePlayer(youTubePlayerView: YouTubePlayerView?){
-        youTubePlayerView?.initialize("AIzaSyBx7v0YOb140fDO7EbfMx4l87raxezDWFw", this)
+        youTubePlayerView?.initialize("Your Youtube API Key", this)
         mHandler = Handler()
     }
 
